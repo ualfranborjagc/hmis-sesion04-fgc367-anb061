@@ -7013,6 +7013,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
+/*Horizontal y vertical*/
 .hstack {
   display: flex;
   flex-direction: row;
@@ -7272,7 +7273,7 @@ textarea.form-control-lg {
 .translate-middle-y {
   transform: translateY(-50%) !important;
 }
-
+/*Bordes*/
 .border {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
@@ -7607,6 +7608,7 @@ textarea.form-control-lg {
   align-self: stretch !important;
 }
 
+/*Ordenar elementos*/
 .order-first {
   order: -1 !important;
 }
@@ -7639,6 +7641,7 @@ textarea.form-control-lg {
   order: 6 !important;
 }
 
+/*Margenes*/
 .m-0 {
   margin: 0 !important;
 }
@@ -8029,6 +8032,7 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
+/*Separadores*/
 .gap-0 {
   gap: 0 !important;
 }
@@ -8129,6 +8133,7 @@ textarea.form-control-lg {
   line-height: 2 !important;
 }
 
+/*Textos*/
 .text-start {
   text-align: left !important;
 }
@@ -8271,6 +8276,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
+/*Modificar cosas del fondo*/
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
@@ -8426,7 +8432,7 @@ textarea.form-control-lg {
   border-top-right-radius: var(--bs-border-radius) !important;
   border-bottom-right-radius: var(--bs-border-radius) !important;
 }
-
+/*Boton redondo*/
 .rounded-bottom {
   border-bottom-right-radius: var(--bs-border-radius) !important;
   border-bottom-left-radius: var(--bs-border-radius) !important;
@@ -10975,6 +10981,8 @@ html {
   scroll-padding-top: calc(4.5rem - 1px);
 }
 
+/*Cuerpo de la app*/
+
 body {
   letter-spacing: 0.0625em;
 }
@@ -11061,6 +11069,34 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+/*Class hechos por mi*/
+
+.fondo-dark {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.fondo-light {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .masthead {
