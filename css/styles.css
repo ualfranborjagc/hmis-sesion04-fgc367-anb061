@@ -307,6 +307,34 @@ figure {
   margin: 0 0 1rem;
 }
 
+/*Metodo hecho por mi*/
+.imagen-redondeada {
+  border-radius: 30px;
+  /*border: 1px solid #fff;*/
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.list-container {
+  margin: 50px auto 0;
+  width: 80%;
+  text-align: center;
+}
+
+sep1 {
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+}
+
+sep2 {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 80%;
+  text-align: justify;
+}
+
+
+
 img,
 svg {
   vertical-align: middle;
